@@ -111,7 +111,7 @@ This project includes **VNet Peering** between multiple virtual networks to enab
 
 #### VPN Gateway Creation Screenshot:
 
-![VPN Gateway Creation](files/VIRTUAL%20NETWORK%20GATEWAY%20CREATE.png)
+![VPN Gateway Creation](../files/VIRTUAL_NETWORK_GATEWAY_CREATE.png)
 
 #### VPN Gateway Configuration Screenshot:
 

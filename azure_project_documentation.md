@@ -49,11 +49,11 @@ This project demonstrates the deployment of a multi-tier Azure environment with 
 
 #### Network VNet3 Screenshot:
 
-![VNet and Subnets](/Azureproject/files/VNET3_create.png)
+![VNet and Subnets](/files/VNET3_create.png)
 
 #### Network VNet2 Screenshot:
 
-![VNet and Subnets](/Azureproject/files/VNet2_Create.png)
+![VNet and Subnets](/files/VNet2_Create.png)
 
 ---
 ---
@@ -71,13 +71,13 @@ This project includes **VNet Peering** between multiple virtual networks to enab
 
 #### Peering Screenshots:
 ## VNet1 to VNet2:
-![VNet1-VNet2 Peering](/Azureproject/files/VNET1-VNET2_PEERING.png)
+![VNet1-VNet2 Peering](/files/VNET1-VNET2_PEERING.png)
 
 ## VNet1 to VNet3:
-![VNet1-VNet3 Peering](/Azureproject/files/VNET2-VNET3_PEERING.png)
+![VNet1-VNet3 Peering](/files/VNET2-VNET3_PEERING.png)
 
 ## VNet2 to VNet3:
-![VNet2-VNet3 Peering](/Azureproject/files/VNET2-VNET3_PEERING.png)
+![VNet2-VNet3 Peering](/files/VNET2-VNET3_PEERING.png)
 
 
 ---
@@ -98,7 +98,7 @@ This project includes **VNet Peering** between multiple virtual networks to enab
 
 #### Azure Firewall Creation Screenshot:
 
-![Firewall Creation](/Azureproject/files/FIREWALLCREATE.png)
+![Firewall Creation](/files/FIREWALLCREATE.png)
 
 ---
 
@@ -120,15 +120,15 @@ This project includes **VNet Peering** between multiple virtual networks to enab
 
 #### VPN Gateway Creation Screenshot:
 
-![VPN Gateway Creation](/Azureproject/files/VIRTUAL_NETWORK_GATEWAY_CREATE.png)
+![VPN Gateway Creation](/files/VIRTUAL_NETWORK_GATEWAY_CREATE.png)
 
 #### VPN Gateway Configuration Screenshot:
 
-![VPN Gateway Config](/Azureproject/files/VPNGATEWAY_P2S_CONFIG.png)
+![VPN Gateway Config](/files/VPNGATEWAY_P2S_CONFIG.png)
 
 #### VPN Gateway (if not connected to vpn gateway its not working) Screenshot:
 
-![VPN Gateway Config](/Azureproject/files/vpngateway_disabled_failing_connecting.png)
+![VPN Gateway Config](/files/vpngateway_disabled_failing_connecting.png)
 
 
 ---
@@ -168,6 +168,6 @@ Write-Output "Secret value: $secret"
 
 ### Secret Access screenshot (from VM):
 
-![VPN Gateway Config](/Azureproject/files/keyvault_password_listing.png)
+![VPN Gateway Config](/files/keyvault_password_listing.png)
 
 

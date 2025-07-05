@@ -1,3 +1,7 @@
+![Profilkép](/files/cropped_circle_image.png)
+
+# Azure Secure Infrastructure Deployment - Full Documentation
+
 [Main page](/README.md)
 # Azure Secure Infrastructure Deployment - Full Documentation
 

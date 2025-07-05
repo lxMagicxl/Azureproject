@@ -1,61 +1,58 @@
-# Step-by-Step Azure Infrastructure Deployment Guide
+# Azure Infrastructure Deployment — Step-by-Step Guide
 
-This document details the exact steps I followed to deploy the secure Azure infrastructure.
-
----
-
-## 1️⃣ Network Architecture Design:
-- Created **3 Virtual Networks (VNets)**:
-  - VNet1: For main workloads
-  - VNet2: For database layer
-  - VNet3: For backup & monitoring
-
-- Subnet segmentation per VNet (e.g., Web, App, DB subnets).
+This document outlines the process followed to deploy a secure, production-ready Azure environment.
 
 ---
 
-## 2️⃣ Secure Access Configuration:
-- Deployed **Azure Bastion** in VNet1 for secure RDP/SSH access to VMs.
-- Configured **Network Security Groups (NSGs)** to allow only required inbound/outbound traffic.
+## 1. Network Design
+- Created three Virtual Networks:
+  - **VNet1**: Main workloads
+  - **VNet2**: Database layer
+  - **VNet3**: Monitoring & backup
+
+- Defined subnets within each VNet (e.g., web, app, database tiers).
 
 ---
 
-## 3️⃣ Connectivity Setup:
-- Configured **VNet Peering** to enable communication between VNets.
-- Established **Point-to-Site (P2S)** VPN for admin remote access.
-- Configured **Site-to-Site (S2S)** VPN for on-premises connectivity (lab simulated).
+## 2. Secure Access Setup
+- Deployed Azure Bastion in VNet1 for secure, agentless RDP/SSH access.
+- Configured Network Security Groups (NSGs) to control traffic at subnet and NIC levels.
 
 ---
 
-## 4️⃣ Firewall & Routing:
-- Deployed **Azure Firewall** in a dedicated subnet.
-- Created custom **route tables** for Forced Tunneling via Firewall.
-- Applied routing rules to route all outbound traffic through Firewall.
+## 3. Connectivity Configuration
+- Established Virtual Network Peering between VNets for seamless communication.
+- Configured Point-to-Site (P2S) VPN for admin access.
+- Set up Site-to-Site (S2S) VPN to connect simulated on-premises resources.
 
 ---
 
-## 5️⃣ Identity & Secrets Management:
-- Assigned **RBAC roles** to limit permissions following the principle of least privilege.
-- Integrated **Azure Key Vault** to securely store and retrieve secrets (e.g., connection strings, passwords).
+## 4. Firewall & Routing
+- Deployed Azure Firewall in a dedicated subnet.
+- Configured User-Defined Routes (UDRs) to enable Forced Tunneling via the Firewall.
+- Applied routing to direct outbound traffic through the Firewall for centralized control.
 
 ---
 
-## 6️⃣ Monitoring & Alerts:
-- Enabled **Azure Monitor** and **Log Analytics** for system monitoring and centralized log collection.
-- Configured alerts for performance thresholds, unauthorized access attempts, and firewall events.
+## 5. Identity & Secrets Management
+- Applied Role-Based Access Control (RBAC) roles based on the principle of least privilege.
+- Integrated Azure Key Vault to store sensitive data such as connection strings and secrets.
 
 ---
 
-## ✅ Tools Used:
+## 6. Monitoring & Logging
+- Enabled Azure Monitor and Log Analytics to collect performance data and security logs.
+- Configured alerts for key metrics including resource performance and security events.
+
+---
+
+## Notes
+- All resources were tagged for effective cost management and organization.
+- Deployment followed Microsoft’s Azure Well-Architected Framework best practices.
+
+---
+
+## Tools & Services Used
 - Azure Portal
-- Azure Resource Manager (ARM)
+- ARM Templates
 - PowerShell
-
----
-
-## 💡 Notes:
-- All resources were tagged for cost management and resource organization.
-- Security best practices were followed according to Microsoft’s Azure Well-Architected Framework.
-
----
-

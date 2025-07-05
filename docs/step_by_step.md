@@ -58,4 +58,4 @@ This document outlines the process followed to deploy a secure, production-ready
 - Azure Portal
 - ARM Templates
 - PowerShell
-###[Azure_Project_Documentation Guide](docs/azure_project_documentation)
+[Azure Project Documentation Guide](/docs/azure_project_documentation.md)

@@ -38,7 +38,7 @@ For a detailed breakdown of the deployment process, including step-by-step instr
 
 ### Links:
 - [Project Repository](https://github.com/lxMagicxl/Azureproject)
-- [LinkedIn Profile](https://www.linkedin.com/in/daniel-farkas/)
+- [LinkedIn Profile](https://www.linkedin.com/in/daniel-farkas-azure/)
 
 ---
 

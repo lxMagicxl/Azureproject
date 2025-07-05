@@ -1,4 +1,5 @@
-###[Azure_Project_Documentation Guide](docs/azure_project_documentation)
+###[Azure Project Documentation Guide](/docs/azure_project_documentation)
+
 # Azure Infrastructure Deployment — Step-by-Step Guide
 
 This document outlines the process followed to deploy a secure, production-ready Azure environment.

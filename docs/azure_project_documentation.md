@@ -61,14 +61,15 @@ This project includes **VNet Peering** between multiple virtual networks to enab
 | VNet2-VNet3 Peering | VNet2 | VNet3 | Connected |
 
 #### Peering Screenshots:
-- VNet1 to VNet2:
+## VNet1 to VNet2:
 ![VNet1-VNet2 Peering](../files/VNET1-VNET2_PEERING.png)
 
-- VNet1 to VNet3:
+## VNet1 to VNet3:
 ![VNet1-VNet3 Peering](../files/VNET2-VNET3_PEERING.png)
 
-- VNet2 to VNet3:
+## VNet2 to VNet3:
 ![VNet2-VNet3 Peering](../files/VNET2-VNET3_PEERING.png)
+
 
 ---
 

@@ -1,4 +1,4 @@
-![Profilkép](/files/cropped_circle_image.png)
+
 
 # Azure Secure Infrastructure Deployment - Full Documentation
 

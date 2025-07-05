@@ -47,6 +47,37 @@ This project demonstrates the deployment of a multi-tier Azure environment with 
 ![VNet and Subnets](files/VNet2%20Create.png)
 
 ---
+---
+
+## 🔗 Virtual Network Peering Configuration
+
+This project includes **VNet Peering** between multiple virtual networks to enable seamless, private communication across different VNets.
+
+### Peering Connections:
+| Peering | Source VNet | Destination VNet | Status   |
+|---------|-------------|------------------|----------|
+| VNet1-VNet2 Peering | VNet1 | VNet2 | Connected |
+| VNet1-VNet3 Peering | VNet1 | VNet3 | Connected |
+| VNet2-VNet3 Peering | VNet2 | VNet3 | Connected |
+
+#### Peering Screenshots:
+- VNet1 to VNet2:
+![VNet1-VNet2 Peering](files/VNET1-VNET2%20PEERING.png)
+
+- VNet1 to VNet3:
+![VNet1-VNet3 Peering](files/VNET1-VNET3%20PEERING.png)
+
+- VNet2 to VNet3:
+![VNet2-VNet3 Peering](files/VNET2-VNET3%20PEERING.png)
+
+---
+
+### Key Peering Features:
+- Enables full private connectivity between VNets.
+- Uses Microsoft backbone network — secure & high-speed.
+- No need for public IPs or VPNs for cross-VNet traffic.
+
+---
 
 ## 🏠 Azure Firewall Configuration
 

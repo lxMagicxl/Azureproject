@@ -64,11 +64,13 @@ This project demonstrates the deployment of a multi-tier Azure environment with 
 This project includes **VNet Peering** between multiple virtual networks to enable seamless, private communication across different VNets.
 
 ### Peering Connections:
-| Peering | Source VNet | Destination VNet | Status   |
-|---------|-------------|------------------|----------|
-| VNet1-VNet2 Peering | VNet1 | VNet2 | Connected |
-| VNet1-VNet3 Peering | VNet1 | VNet3 | Connected |
-| VNet2-VNet3 Peering | VNet2 | VNet3 | Connected |
+
+| Peering                 | Source VNet | Destination VNet | Status    |
+|-------------------------|-------------|------------------|-----------|
+| VNet1-VNet2 Peering     | VNet1       | VNet2            | Connected |
+| VNet1-VNet3 Peering     | VNet1       | VNet3            | Connected |
+| VNet2-VNet3 Peering     | VNet2       | VNet3            | Connected |
+
 
 #### Peering Screenshots:
 ## VNet1 to VNet2:

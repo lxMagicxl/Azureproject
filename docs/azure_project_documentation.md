@@ -89,7 +89,7 @@ This project includes **VNet Peering** between multiple virtual networks to enab
 
 #### Azure Firewall Creation Screenshot:
 
-![Firewall Creation](files/FIREWALLCREATE.png)
+![Firewall Creation](../files/FIREWALLCREATE.png)
 
 ---
 

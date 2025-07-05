@@ -53,11 +53,16 @@ This project demonstrates the deployment of a multi-tier Azure environment with 
 
 #### Network VNet3 Screenshot:
 
-![VNet and Subnets](/files/VNET3_create.png)
+<a href="https://lxmagicxl.github.io/Azureproject/files/VNET3_create.png" target="_blank">
+  <img src="https://lxmagicxl.github.io/Azureproject/files/VNET3_create.png" alt="VNet and Subnets" width="400">
+</a>
 
 #### Network VNet2 Screenshot:
 
-![VNet and Subnets](/files/VNet2_Create.png)
+
+<a href="https://lxmagicxl.github.io/Azureproject/files/VNet2_Create.png" target="_blank">
+  <img src="https://lxmagicxl.github.io/Azureproject/files/VNet2_Create.png" alt="VNet and Subnets" width="400">
+</a>
 
 ---
 ---
@@ -76,14 +81,25 @@ This project includes **VNet Peering** between multiple virtual networks to enab
 
 
 #### Peering Screenshots:
+
 ## VNet1 to VNet2:
-![VNet1-VNet2 Peering](/files/VNET1-VNET2_PEERING.png)
+
+<a href="https://lxmagicxl.github.io/Azureproject/files/VNET1-VNET2_PEERING.png" target="_blank">
+  <img src="https://lxmagicxl.github.io/Azureproject/files/VNET1-VNET2_PEERING.png" alt="VNet1-VNet2 Peering" width="400">
+</a>
 
 ## VNet1 to VNet3:
-![VNet1-VNet3 Peering](/files/VNET2-VNET3_PEERING.png)
+
+<a href="https://lxmagicxl.github.io/Azureproject/files/VNET1-VNET3_PEERING.png" target="_blank">
+  <img src="https://lxmagicxl.github.io/Azureproject/files/VNET2-VNET3_PEERING.png" alt="VNet1-VNet3 Peering" width="400">
+</a>
 
 ## VNet2 to VNet3:
-![VNet2-VNet3 Peering](/files/VNET2-VNET3_PEERING.png)
+
+<a href="https://lxmagicxl.github.io/Azureproject/files/VNET2-VNET3_PEERING.png" target="_blank">
+  <img src="https://lxmagicxl.github.io/Azureproject/files/VNET2-VNET3_PEERING.png" alt="VNet2-VNet3 Peering" width="400">
+</a>
+
 
 
 ---
@@ -104,7 +120,9 @@ This project includes **VNet Peering** between multiple virtual networks to enab
 
 #### Azure Firewall Creation Screenshot:
 
-![Firewall Creation](/files/FIREWALLCREATE.png)
+<a href="https://lxmagicxl.github.io/Azureproject/files/FIREWALLCREATE.png" target="_blank">
+  <img src="https://lxmagicxl.github.io/Azureproject/files/FIREWALLCREATE.png" alt="Firewall Creation" width="400">
+</a>
 
 ---
 
@@ -126,15 +144,21 @@ This project includes **VNet Peering** between multiple virtual networks to enab
 
 #### VPN Gateway Creation Screenshot:
 
-![VPN Gateway Creation](/files/VIRTUAL_NETWORK_GATEWAY_CREATE.png)
+<a href="https://lxmagicxl.github.io/Azureproject/files/VIRTUAL_NETWORK_GATEWAY_CREATE.png" target="_blank">
+  <img src="https://lxmagicxl.github.io/Azureproject/files/VIRTUAL_NETWORK_GATEWAY_CREATE.png" alt="VPN Gateway Creation" width="400">
+</a>
 
 #### VPN Gateway Configuration Screenshot:
 
-![VPN Gateway Config](/files/VPNGATEWAY_P2S_CONFIG.png)
+<a href="https://lxmagicxl.github.io/Azureproject/files/VPNGATEWAY_P2S_CONFIG.png" target="_blank">
+  <img src="https://lxmagicxl.github.io/Azureproject/files/VPNGATEWAY_P2S_CONFIG.png" alt="VPN Gateway Config" width="400">
+</a>
 
-#### VPN Gateway (if not connected to vpn gateway its not working) Screenshot:
+#### VPN Gateway (if not connected to VPN Gateway, it's not working) Screenshot:
 
-![VPN Gateway Config](/files/vpngateway_disabled_failing_connecting.png)
+<a href="https://lxmagicxl.github.io/Azureproject/files/vpngateway_disabled_failing_connecting.png" target="_blank">
+  <img src="https://lxmagicxl.github.io/Azureproject/files/vpngateway_disabled_failing_connecting.png" alt="VPN Gateway Failing" width="400">
+</a>
 
 
 ---
@@ -172,8 +196,10 @@ $secret = az keyvault secret show --vault-name "AzureKeyVault234746" --name "Tes
 Write-Output "Secret value: $secret"
 ```
 
-### Secret Access screenshot (from VM):
+### Secret Access Screenshot (from VM):
 
-![VPN Gateway Config](/files/keyvault_password_listing.png)
+<a href="https://lxmagicxl.github.io/Azureproject/files/keyvault_password_listing.png" target="_blank">
+  <img src="https://lxmagicxl.github.io/Azureproject/files/keyvault_password_listing.png" alt="Secret Access from VM" width="400">
+</a>
 
 

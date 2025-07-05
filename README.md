@@ -30,6 +30,12 @@ In this project, I designed and deployed a **secure multi-tier web application**
 
 ---
 
+## 📄 Documentation:
+Want to see my detailed process for deploying this project?  
+[📄 View Detailed Step-by-Step Deployment Guide](docs/step_by_step.md)
+
+---
+
 ## 🔗 Links:
 - [View Project Repository](https://github.com/lxMagicxl/Azureproject)
 - [LinkedIn Profile](https://www.linkedin.com/in/daniel-farkas/)

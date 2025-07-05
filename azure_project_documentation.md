@@ -45,8 +45,7 @@ This project demonstrates the deployment of a multi-tier Azure environment with 
 - VPN Gateway (VpnGw1 SKU, active-active disabled) for Point-to-Site VPN
 #### VM1 of VNet1 Screenshot:
 
-![VNet and Subnets](/Azureproject/files/VM1_CREATE.png)
-
+[![VNet and Subnets](/files/VM1_CREATE.png)](/files/VM1_CREATE.png)
 
 #### Network VNet3 Screenshot:
 

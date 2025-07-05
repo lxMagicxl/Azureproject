@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/assets/style.css">
+
 # Azure Cloud Projects Portfolio
 
 Welcome! I’m **Dániel Farkas**, an aspiring **Azure Cloud Administrator** with hands-on experience in building secure, scalable cloud infrastructure. This portfolio highlights one of my key projects focused on cloud networking, security, and automation in Microsoft Azure.

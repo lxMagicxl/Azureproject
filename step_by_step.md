@@ -60,4 +60,4 @@ This document outlines the process followed to deploy a secure, production-ready
 - PowerShell
 
   
-[Azure Project Documentation Guide](/docs/azure_project_documentation.md)
+[Azure Project Documentation Guide](/azure_project_documentation.md)

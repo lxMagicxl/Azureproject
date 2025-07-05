@@ -1,7 +1,4 @@
 
-
-# Azure Secure Infrastructure Deployment - Full Documentation
-
 [Main page](/README.md)
 # Azure Secure Infrastructure Deployment - Full Documentation
 

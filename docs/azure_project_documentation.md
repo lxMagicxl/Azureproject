@@ -114,7 +114,8 @@ This project includes **VNet Peering** between multiple virtual networks to enab
 
 #### VPN Gateway Configuration Screenshot:
 
-![VPN Gateway P2S Config](files/VPNGATEWAY P2S CONFIG.png)
+![VPN Gateway P2S Config](files/VPNGATEWAY_P2S_CONFIG.png)
+
 
 ---
 

@@ -1,8 +1,4 @@
-body {
-  font-size: calc(20px + 2pt);
-  line-height: 1.7;
-}
-
-.sidebar, .content, h1, h2, h3, p, li, a {
-  font-size: larger;
+html, body, .content, .sidebar, h1, h2, h3, p, li, a {
+  font-size: 22px !important;
+  line-height: 1.8 !important;
 }

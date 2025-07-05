@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="/assets/style.css">
 
 [Main page](/README.md)
 # Azure Secure Infrastructure Deployment - Full Documentation

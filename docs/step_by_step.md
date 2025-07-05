@@ -1,4 +1,4 @@
-###[Azure Project Documentation Guide](/docs/azure_project_documentation)
+[Azure Project Documentation Guide](/docs/azure_project_documentation)
 
 # Azure Infrastructure Deployment — Step-by-Step Guide
 

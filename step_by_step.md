@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="/assets/style.css">
 
 [Azure Project Documentation Guide](/azure_project_documentation.md)
 

@@ -41,12 +41,16 @@ This project demonstrates the deployment of a multi-tier Azure environment with 
 - Azure Bastion (for secure RDP/SSH without Public IP)
 - Azure Firewall (Basic SKU) for centralized network security
 - VPN Gateway (VpnGw1 SKU, active-active disabled) for Point-to-Site VPN
+#### Network VNet2 Screenshot:
+
+![VNet and Subnets](../files/VM1_CREATE.png)
+
 
 #### Network VNet3 Screenshot:
 
 ![VNet and Subnets](../files/VNET3_create.png)
 
-#### Network Topology Screenshot:
+#### Network VNet2 Screenshot:
 
 ![VNet and Subnets](../files/VNet2_Create.png)
 

@@ -1,7 +1,4 @@
 
-
-# Azure Infrastructure Deployment — Step-by-Step Guide
-
 [Azure Project Documentation Guide](/azure_project_documentation.md)
 
 # Azure Infrastructure Deployment — Step-by-Step Guide

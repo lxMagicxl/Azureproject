@@ -44,4 +44,4 @@ For a detailed breakdown of the deployment process, including step-by-step instr
 
 ### Contact:
 Feel free to reach out if you’d like to collaborate or discuss cloud solutions:  
-📧 [LinkedIn](https://www.linkedin.com/in/daniel-farkas/)
+📧 [LinkedIn](https://www.linkedin.com/in/daniel-farkas-azure/)

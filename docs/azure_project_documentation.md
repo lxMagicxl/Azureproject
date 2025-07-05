@@ -44,7 +44,7 @@ This project demonstrates the deployment of a multi-tier Azure environment with 
 
 #### Network Topology Screenshot:
 
-![VNet and Subnets](../files/VM1 CREATE.png)
+![VNet and Subnets](../files/VM1_CREATE.png)
 
 ---
 ---

@@ -1,4 +1,4 @@
-![Profilkép](/files/cropped_circle_image.png)
+
 
 # Azure Infrastructure Deployment — Step-by-Step Guide
 

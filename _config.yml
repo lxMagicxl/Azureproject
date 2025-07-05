@@ -2,3 +2,6 @@ title: Dániel Farkas | Cloud Projects Portfolio
 logo: /files/cropped_circle_image.png
 description: A portfolio showcasing my Azure Cloud Administration Projects
 theme: jekyll-theme-minimal
+plugins:
+  - jekyll-remote-theme
+remote_theme: pages-themes/minimal

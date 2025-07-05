@@ -155,3 +155,10 @@ This project includes **VNet Peering** between multiple virtual networks to enab
 az login --identity
 $secret = az keyvault secret show --vault-name "AzureKeyVault234746" --name "TestSecret" --query "value" -o tsv
 Write-Output "Secret value: $secret"
+```
+
+### Secret Access screenshot (from VM):
+
+![VPN Gateway Config](../files/keyvault_password_listing.png)
+
+

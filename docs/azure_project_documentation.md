@@ -117,6 +117,9 @@ This project includes **VNet Peering** between multiple virtual networks to enab
 
 ![VPN Gateway Config](../files/VPNGATEWAY_P2S_CONFIG.png)
 
+#### VPN Gateway (if not connected to vpn gateway its not working) Screenshot:
+
+![VPN Gateway Config](../files/vpngateway_disabled_failing_connecting.png)
 
 
 ---

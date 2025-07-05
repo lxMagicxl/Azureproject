@@ -32,7 +32,7 @@ This project demonstrates the design and deployment of a **multi-tier, secure Az
 
 ### Documentation:
 For a detailed breakdown of the deployment process, including step-by-step instructions:
-➡️ [Detailed Deployment Guide](docs/step_by_step.md)
+➡️ [Detailed Deployment Guide](/step_by_step.md)
 
 ---
 
